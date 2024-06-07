@@ -1,5 +1,5 @@
 {
-  "productName": "lines-app",
+  "productName": "Line2024",
   "version": "0.0.0",
   "identifier": "com.tauri.dev",
   "build": {
@@ -8,11 +8,14 @@
     "beforeBuildCommand": "pnpm build",
     "frontendDist": "../dist"
   },
-  "app": {"windows": [
+  "app": {
+    "windows": [
       {
-        "title": "lines-app",
-        "width": 800,
-        "height": 600
+        "title": "TransEnergy-Line2024",
+        "width": 1500,
+        "height": 1000,
+        "resizable": true,
+        "center": true
       }
     ],
     "security": {
